@@ -1,0 +1,8 @@
+MIDlet-1: zhClock,/zhClock.png,zh.zhClock
+MIDlet-Jar-Size: 423685
+MIDlet-Jar-URL: ZHClock.jar
+MIDlet-Name: ZHClock
+MIDlet-Vendor: Ivan Zhuk, Nevyansk
+MIDlet-Version: 1.51
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
