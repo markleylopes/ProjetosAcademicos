@@ -1,0 +1,408 @@
+*{list-style:none;text-decoration:none;box-sizing:border-box;margin:0;padding:0;border:0;outline:0;vertical-align:baseline;font-family:'Varela Round', sans-serif;font-weight:300;}
+body{-webkit-text-size-adjust: 100%;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;-moz-osx-text-size-adjust: none;-moz-osx-font-smoothing: antialiased;-moz-text-size-adjust: none;-moz-font-smoothing: antialiased;text-size-adjust: none;font-smoothing: antialiased;overflow-y: scroll;-webkit-overflow-scrolling: touch;}
+*[class^="col"]{float: left;}
+.displayLine{margin: auto; height: 2px; background-color: #195c69; width:100px;}
+#aboutLine{opacity: 0;}
+#aboutLine.after{margin: auto; height: 2px; background-color: #195c69; width:100px; opacity: 1; transition: 1.2s;}
+.col-12 {width: 100%;}
+.col-11 { width: 91.66666667%;}
+.col-10 { width: 83.33333333%;}
+.col-9 { width: 75%;}
+.col-8 { width: 66.66666667%;}
+.col-7 {width: 58.33333333%;}
+.col-6 {width: 50%;}
+.col-5 { width: 41.66666667%;}
+.col-4 {width: 33.33333333%;}
+.col-3 { width: 25%;}
+.col-2 {width: 16.66666667%;}
+.col-1 { width: 8.33333333%;}
+.container{width: 1140px;}
+.container-fluid{width: 1366px;}
+.container-less{width: 960px;}
+.clearfix::before, .clearfix::after { content: ' '; display: table;}
+.clearfix::after {clear: both;}
+.borders{max-width: 85%;}
+.borders-fluid{max-width: 90%;}
+
+/* ---- HEADER ----- */
+
+#firstHeader{background-color: #53b8ce;}
+#firstMenuBox{margin: auto;}
+#socialMenu{text-align:left;}
+#socialMenu ul li{padding: 15px 0px; border-left: 1px solid #f1f1f138; margin-left: -4px; transition: .2s; width: 55px; text-align: center;}
+#socialMenu ul li:first-child{margin-left: 0px;}
+#socialMenu ul li:last-child{border-right: 1px solid #f1f1f138;}
+#socialMenu ul li:hover{background-color: #45a8be;}
+#socialMenu ul li:nth-child(1) a{padding: 15px 24px;}
+#socialMenu ul li:nth-child(2) a{padding: 15px 21px;}
+#socialMenu ul li:nth-child(3) a{padding: 15px 16px;}
+#socialMenu ul li a i{font-size: 17px; color: #ffffffc9;}
+#firstMenu{padding: 10px 0px;}
+#firstMenu > ul > li{margin: 0px 15px 0px 15px;}
+#firstMenu > ul > li:last-child{margin: 0px 0px 0px 7px; float:right;}
+#firstMenu ul li a{font-size: 15px; color: #4b6b76;}
+i.fa-shopping-cart{font-size: 29px;}
+#searchHeader{width: 175px;  transition: .4s; height: 28px; border-radius: 50px; padding-left: 25px; color:gray;}
+#searchHeader::placeholder{color:gray;}
+#searchHeader.after{width: 250px; transition: .4s;}
+#searchButton{position:relative; top: -1px;}
+#searchTopIcon{position:absolute; top: 4px; left: 6px; color: gray;}
+
+#secondHeader{background-color: #6acadf;}
+#secondMenuBox{margin: auto; padding:7px 0px;}
+#secondMenu{margin-top: 30px;}
+#logoHeader{margin-top: 5px;}
+header #firstMenu, header #secondMenu{text-align:right;}
+header nav ul li{display: inline-block;}
+#secondMenu ul li{margin: 0px 35px 0px 35px;padding-bottom: 15px;}
+#secondMenu ul li:last-child{margin: 0px 0px 0px 17px}
+#secondMenu ul li a{font-size: 20px; color: #f2fcff;padding: 0px 0px 15px 0px; transition: .3s;}
+#secondMenu ul li:hover{border-bottom: 4px solid #2c5c6c;transition: .2s;}
+#secondMenu ul li a:hover{color: #2c95b9;transition: .2s;}
+#mark{border-bottom: 4px solid #f2fcff;}
+
+/* ---- LOGIN BOX ----- */
+
+#loginButton{cursor:pointer; padding: 5px 10px; transition: .2s; background-color: #1f99b3; color: #fff; border-radius: 4px;}
+#loginButton:hover{color: gray; background-color: #ffd0a6;  transition: .2s;}
+#loginBox{border-radius: 4px; position:absolute; z-index: 9988; display:none; margin-top: 20px; background-color: #fffdfc; border: 1px solid #dcdcdc; box-shadow: 0px 2px 4px #3a3a3a14;}
+#loginBox.after{display:block; margin-left: -120px;}
+
+.arrow-up{position: absolute; width: 0; height: 0; border-left: 17px solid transparent; border-right: 17px solid transparent; border-bottom: 17px solid #fffdfc; margin-left: 135px; margin-top: -16px;}
+
+#loginBoxAlign{text-align: left; margin: 20px;}
+#loginBox nav ul li{display:block; float:left;}
+#loginBoxAlign nav ul li:nth-child(1){border-right: 3px solid #656565; padding-right: 20px; margin-right: 20px;}
+#loginBoxAlign nav ul li:nth-child(2){width: 303px;}
+.entrarText{ color: #676767; border-bottom: 1px solid #f1f1f1; margin: 0px 5px 15px 5px; padding-bottom: 4px;}
+#loginForm{width:280px; padding: 0px 10px;}
+
+.loginInputs{width: 100%;height: 36px;border-radius: 5px; border: 2px solid #d8d8d8; padding-left: 9px; transition: .4s; box-shadow: inset 0 3px 8px -2px #e1e1e1;}
+.h3Logins{font-size: 16px;margin: 0px 0px 1px 10px;color: #8c8c8c;}
+#loginInput.after{transition: .3s; border: 2px solid #7db2c2; background-color: #53b8ce2b;}
+#passwordInput.after{transition: .3s; border: 2px solid #7db2c2; background-color: #53b8ce2b;}
+#passwordText{margin-top: 10px;}
+input[type="password"] {font:small-caption;font-size:16px;}
+#submitLogin{width: 100%;margin-top: 15px;height: 40px;border-radius: 50px; text-transform: uppercase; background: linear-gradient(to bottom, #6acadf 0%,#2ab1cc 100%); color: #fff; border: 1px solid #d4d4d4;     box-shadow: inset 1px 1px 0px #fff;}
+#submitLogin{cursor: pointer;}
+
+/* ---- LOGIN ERROR ----- */
+
+#loginInput-error{color: white;background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#passwordInput-error{color: white;background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#statusLogin{color:red;text-align: center;}   
+
+/* ---- REGISTER BOX ----- */
+
+#registerBox{padding: 0px 15px; text-align:center;}
+#registerBox > h2{font-size: 17px; color: #a1a1a0;}
+#registerBox div a{color: white!important; display: block; height: 100%; border-radius: 50px;}
+#registerUs{ line-height: 40px; width: 75%; margin: 3px auto 0px; height: 40px; border-radius: 50px; background: linear-gradient(to bottom, #8ebfca 0%,#6697a7 100%); color: #fff; border: 1px solid #d4d4d4; box-shadow: inset 1px 1px 0px #fff;}
+#registerFacebook{ line-height: 40px; width: 75%; margin: 3px auto 0px; height: 40px; border-radius: 50px; background: linear-gradient(to bottom, #4f6796 0%,#3b5998 50%,#3B5998 100%); color: #fff; border: 1px solid #d4d4d4; box-shadow: inset 1px 1px 0px #fff;}
+#registerGoogle{ line-height: 40px; width: 75%; margin: 7px auto 0px; height: 40px; border-radius: 50px; background: linear-gradient(to bottom, #d17368 0%,#d16255  50%,#d34836 100%); color: #fff; border: 1px solid #d4d4d4; box-shadow: inset 1px 1px 0px #fff;}
+#registerFacebookIcon, #registerGoogleIcon{margin-right: 10px;}
+
+
+/* ---- BACKGROUND SECTION ----- */
+
+#sliderServices{height:100%;}
+#owlStageOuter{height:100%;}
+#owlStage{height:100%;}
+
+/* ---- SLIDE 01 ----- */
+#backgroundTop{background: linear-gradient(to bottom right, #eff9fb 45%, #dcf9ff 100%);}
+#backgroundSymbol{background: url('../imgs?imgs=dog_pattern.png');}
+#backgroundSection{margin: auto; padding-top: 50px; height: 680px;}
+#textSection{width:50%; padding-top: 120px; opacity: 0;}
+#textSection.slide_01_textSection_animate{transition: .9s; opacity: 1.0; padding-top: 100px;}
+#dogBackground{background: url('../imgs?imgs=dog_slide_01.png') right top no-repeat; background-size:580px; height:800px; opacity: 0;}
+#dogBackground.slide_01_dogBackground_animate{margin-right:50px; opacity: 1; transition: .9s;}
+#sectionTitle{font-size: 90px;font-family: 'Archivo Black', sans-serif;color: #6c8a94;}
+#sectionDescription{margin: 50px 0px 0px 0px;}
+#sectionDescription:nth-child(3){margin: 0px 0px 50px 0px;}
+#acessButton{background-color: #2c5c6c; padding: 15px 0px; border-radius: 50px; transition: .2s; float:left; height:100%;}
+#acessButton:hover{background-color: #ffd0a6; transition: .2s;}
+#acessButton a{color: white; padding: 15px 60px; border-radius: 50px; font-size: 20px;}
+#acessButton a:hover{color:gray;}
+#acessButton2{border: 2px solid #2c5c6c; padding: 15px 0px; border-radius: 50px; transition: .2s; float:left;}
+#acessButton2:hover{border: 2px solid #ffd0a6; transition: .2s;} 
+#acessButton2 a{color: #2c5c6c; font-size: 20px;border-radius: 50px;padding: 15px 60px; transition: .3s;}
+#acessButton2 a:hover{color: #ffd0a6; transition: .2s;}
+
+/* ---- SLIDE 02 ----- */
+#textSectionSlide2{width:60%;margin-top: 100px; height: 530px;}
+#dogBackgroundSlide2{background: url('../imgs?imgs=dog_slide_02.png') right top no-repeat; background-size:1170px; height:100%;}
+#sectionTitleSlide2{font-size: 90px;font-family: 'Archivo Black', sans-serif;color: #6c8a94;}
+#sectionDescriptionSlide2{width: 60%; margin: 50px 0px 0px 0px;}
+#sectionDescriptionSlide2:nth-child(3){margin: 0px 0px 50px 0px;}
+#acessButtonSlide2{background-color: #2c5c6c; padding: 15px 0px; border-radius: 50px; transition: .2s; float:left; height:100%;}
+#acessButtonSlide2:hover{background-color: #ffd0a6; transition: .2s;}
+#acessButtonSlide2 a{color: white; padding: 15px 60px; border-radius: 50px; font-size: 20px;}
+#acessButtonSlide2 a:hover{color:gray;}
+
+/* ---- SLIDE 03 ----- */
+#textSectionSlide3{width:60%;margin-top: 100px; height: 530px;}
+#dogBackgroundSlide3{background: url('../imgs?imgs=dog_slide_03.png') right top no-repeat; background-size:700px; height:100%;}
+#sectionTitleSlide3{font-size: 90px;font-family: 'Archivo Black', sans-serif;color: #6c8a94;}
+#sectionDescriptionSlide3{width: 60%; margin: 50px 0px 0px 0px;}
+#sectionDescriptionSlide3:nth-child(3){margin: 0px 0px 50px 0px;}
+#acessButtonSlide3{background-color: #2c5c6c; padding: 15px 0px; border-radius: 50px; transition: .2s; float:left; height:100%;}
+#acessButtonSlide3:hover{background-color: #ffd0a6; transition: .2s;}
+#acessButtonSlide3 a{color: white; padding: 15px 60px; border-radius: 50px; font-size: 20px;}
+#acessButtonSlide3 a:hover{color:gray;}
+
+/* ---- BUTTONS SLIDE ----- */
+.item{height:100%; overflow:hidden;}
+.customNextBtn{float:right; margin-top: 19%; margin-right: -140px;font-size: 50px; cursor: pointer; height: 50px;}
+.customPrevBtn{float:left; margin-top: 19%; margin-left: -140px; font-size: 50px; cursor: pointer; height: 50px;}
+.fa-chevron-circle-right{color: #2c5c6c; transition: .3s;}
+.fa-chevron-circle-right:hover{color: #a8d1e7; transition: .3s;}
+.fa-chevron-circle-left{color: #2c5c6c; transition: .3s;}
+.fa-chevron-circle-left:hover{color: #a8d1e7; transition: .3s;}
+
+
+/* ---- MAIN _ ABOUT US ----- */
+
+main{padding: 60px 0px; margin: auto;}
+#aboutUsTitle{text-align:center;  padding:10px 0px 20px 0px; opacity: 0;}
+#aboutUsTitle.after{opacity: 1; transition: 1.2s;}
+.title1{font-size: 40px; font-family: 'Raleway', sans-serif; color: #2d5d67; display:inline-block;}
+.title1:last-child{font-family: 'Fredoka One', cursive; margin-left: 5px;}
+#aboutBottom{padding:40px 0px;}
+#imageAboutUs{ width: 58%; opacity: 0;}
+#imageAboutUs.after{margin-left: 110px; opacity: 1; transition: .7s; }
+#aboutUsDescription{ font-size: 19px; line-height: 28px; font-family: 'Raleway', sans-serif; padding-top: 55px;color: #323232;}
+#leftBox{opacity: 0; transition: .7s; padding-left: 50px;padding-right: 50px;;;}
+#leftBox.after{ opacity: 1;transition: .7s; padding-left: 0px;}
+.secondButton{margin-top: 70px;}
+
+/* ---- OUR SERVICES ----- */
+
+.articleAlign{background-color: #fffdfc; border: 1px solid #b9dbe9; box-shadow: 0px 3px 9px #0000000f;}
+#articleBox{padding: 60px 0px;}
+.articlesServices{width: 23%; float:left; margin-right: 36px;}
+.articlesServices:last-child{margin-right: 0px;}
+.servicesTitle{text-align: center; font-size: 27px; padding: 8px 0px; color: #5f5f5f;}
+.servicesImage{text-align:center; background-color: #5b5b5b0d; padding: 20px 0px;}
+.serviceDescription{ height: 225px; margin: 20px 15px 40px 15px; padding: 30px 20px; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; color: #4a4a4a; line-height: 24px; text-align: justify;}
+.acessButtonServices{box-shadow: 0px 2px 8px #0000003d; background-color: #2c5c6c; padding: 15px 0px; border-radius: 50px; transition: .2s; float:left; height:100%; margin-top: -25px; margin-left: 18%;}
+.acessButtonServices:hover{background-color: #ffd0a6; transition: .2s;}
+.acessButtonServices a{color: white; padding: 15px 60px; border-radius: 50px; font-size: 20px;}
+.acessButtonServices a:hover{color:gray;}
+
+/* ---- MAP ----- */
+
+#clearBackground{position:relative;}
+#mapBackground{border-top: 5px solid #4482a3; border-bottom: 5px solid #4482a3; background: url('../imgs?imgs=mapa_bigger_01.jpg') center no-repeat; background-size: cover; height: 500px; transition:.3s;}
+#mapBackground.after{border-top: 5px solid #8aa1ad; border-bottom: 5px solid #8aa1ad; background: url('../imgs?imgs=mapa_bigger_02.jpg') center no-repeat; background-size: cover; height: 500px; transition:.3s;}
+#squareBox{width:0%; margin-left: 48.3%; margin-top: -45px;}
+#squareClick{cursor:pointer; display: inline-block; border-radius: 50px;}
+#squareBackground{background: #7F7F7F; transition: .4s; background: -moz-linear-gradient(top, #7F7F7F 0%, #969696 50%, #7F7F7F 100%); background: -webkit-linear-gradient(top, #7F7F7F 0%,#969696 50%,#7F7F7F 100%); background: linear-gradient(to bottom, #7F7F7F 0%,#969696 50%,#7F7F7F 100%); position: relative;  border: 2px solid #636363b5; width: 55px; height: 31px; border-radius: 50px;}
+#squareBackground:hover{box-shadow: 0px 0px 5px #96d1f1; transition: .4s;}
+#squareAnimate{background: #ffffff; background: -moz-linear-gradient(top, #ffffff 1%, #c2c2c2 100%); background: -webkit-linear-gradient(top, #ffffff 1%,#c2c2c2 100%); background: linear-gradient(to bottom, #ffffff 1%,#c2c2c2 100%); transition: .3s; width: 25px; height: 25px; border-radius: 50px; z-index: 10; position:absolute; border: 1px solid #0000006e;margin: 1px 0px 0px 1px;}
+#squareAnimate.after{margin-left:25px; transition: .3s;}
+#outerColor{background: #7db9e8; background: -moz-linear-gradient(top, #7db9e8 0%, #5e8abc 99%);background: -webkit-linear-gradient(top, #7db9e8 0%,#5e8abc 99%);background: linear-gradient(to bottom, #7db9e8 0%,#5e8abc 99%); margin: 1px 0px 0px 1px; ; transition: .3s; width: 24px; height: 25px; border-radius: 50px; z-index: 5; position:absolute;}
+#outerColor.after{width: 48px; transition: .3s;}
+#semiCircle{float:left; z-index: 1; margin-top: 7px; margin-left: 32px; color: #6f6f6f;font-weight:bold;}
+.back{box-shadow: 0px 3px 10px #000000ad; background-color:#4482a3; height: 47px; width: 140px; left: 46%; margin-top: -50px; border-top-right-radius: 40px; border-top-left-radius: 40px; margin: auto; z-index:0; transition: .3s; padding-top: 11px; padding-left: 42px;}
+.back.after{background-color: #8aa1ad; transition: .3s;}
+
+/* ---- MAP _ ASIDE ----- */
+
+#mapAside{padding: 80px 0px; box-shadow: inset 0px 20px 38px -28px #cacaca;}
+#mapAsideTitle{padding: 10px 0px 10px 0px; text-align:center;}
+.asideTitle{text-align:center; font-size: 40px; font-family: 'Raleway', sans-serif; color: #2d5d67; display: inline-block;}
+.asideTitle:nth-child(2){ font-family: 'Fredoka One', cursive; margin-left: 5px;}
+#asideLine{margin: 10px auto 75px auto;}
+
+/* ---- FOOTER ----- */
+
+#footerBottom{background-color: #333;}
+#footerBox{margin: auto; padding: 60px 0px 30px 0px;}
+#logoFooter img { margin-left: -5px;}
+#logoDescFooter{font-size: 15px; color: #afafaf; width: 245px; line-height: 30px; padding: 10px 0px;}
+#contactInfo{font-size: 25px; font-family: 'Raleway', sans-serif; color: white; margin-bottom: 27px;}
+.iconsFooter{color: #6bcbdf; width: 100%; margin: 14px 0px;}
+.iconsFooter > div{display: inline-block; color: #afafaf; margin-left: 10px;}
+i.fa.fa-map-marker{padding-left: 2px;}
+i.fa.fa-map-marker div {margin-left: 12px;}
+#redesSociais{text-align: center;}
+.blockHidden{margin: 15px 0px 15px 46%; overflow:hidden; transition: .5s; width: 31px; padding: 5px 0px;}
+.blockHidden:hover{margin: 15px 0px 15px 32%; transition: .5s; width: 165px; padding: 5px 0px;}
+.blockHidden:nth-child(3):hover{margin: 15px 0px 15px 31%; width: 175px;}
+.blockHidden:nth-child(4):hover{margin: 15px 0px 15px 34%; width: 130px;}
+.blockHidden:hover .socialMediaText{margin-left: 40px; transition: .5s;}
+.socialMediaText{font-family: 'Segoe UI', sans-serif; font-weight: 600;font-size: 30px; line-height: 32px; text-align:left; color: gray; float:left; margin-left: -95px; transition: .5s;}
+.socialMediaIcon{height:38px; width: 38px; float:left; position: absolute; border-radius: 5px}
+.socialMediaIcon i{color:white; margin-top: 10px;}
+#instagramColor i{margin-top: 5px;  font-size: 28px;}
+#twitterColor i{margin-top: 8px; font-size: 25px; margin-left: 2px;}
+#facebookColor{background-color: #3b5998;}
+#instagramColor{background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);}
+#twitterColor{background-color: #1dcaff;}
+
+/* ---------------------------------------- AGENDAMENTO PAGE ----------------------------------------- */
+
+#Products{padding: 60px 0px; background-color: #fffdfa7a;}
+#ourServices{background: linear-gradient(to bottom right, #edf8fb 45%, #cff5fd 100%); box-shadow: inset 0px 20px 38px -28px #cacaca;}
+#ourServicesBox{margin: auto; padding: 60px 0px 60px 0px;}
+#titleOurServices{text-align:center; padding:10px 0px 50px 0px;}
+#ourServicesTitle{text-align:center;padding:10px 0px; font-size: 40px; font-family: 'Oswald', sans-serif; text-transform: uppercase; color: #595959;}
+.articlesBox{margin: auto; text-align: center;padding: 20px 0px 80px 0px;}
+.articlesBlocks{display: inline-block; width: 24%; padding: 0px 30px; overflow:hidden;}
+.articlesBlocks:last-child{margin-right: 0px;}
+.imgSize{width: 100%; float:left; border: 1px solid lightgray;}
+.articleText{background-color: #1b9ce1de; width: 100%;margin-top: -43px;height:43px; float:left; padding: 0px 15px; transition: .3s;}
+.articleText.after{background-color: #177eb5f0;margin-top:-103px; height: 103px; transition: .3s;}
+.articleTitle{font-size: 25px;margin-top: 7px; margin-bottom: 15px; color: white; text-align:left;}
+.articleDescription{color: white; text-align:left;}
+
+/* ---------------------------------------- HOTELZINHO PAGE ----------------------------------------- */
+
+#hotelzinhoBackground{background-color: #efefef;}
+#hotelzinhoBox{margin:auto; padding: 60px 0px;}
+#layer1, #layer2{background-color: white; box-shadow: 0px 3px 15px #d4d4d4;}
+#layer1{margin-bottom: 50px;}
+#hotelzinhoFirstImage, #hotelzinhoSecondImage{float:left; width: 30%; height: 300px;}
+.layertexts{text-align: center; float:left; width: 66%; height: 250px; padding: 25px 0px; margin: 25px 0px; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3;}
+.layertitle{color: #5f5f5f; font-size: 30px; margin-bottom: 50px;}
+.layertexts p{color: #4a4a4a; padding: 0px 5%;}
+
+/* ---------------------------------------- CONTATO PAGE ----------------------------------------- */
+
+#contactBox{margin: auto; padding: 60px 0px;}
+#contactLeftBox{text-align: center; font-size: 20px;}
+#contactLeftBox h4{padding: 30px 0px 10px 0px; margin-top: 65px;}
+.iconContact{text-align: center;}
+.iconContact div{float:right;}
+#contactRightBoxAlign{margin: 0px 20%;}
+#contatoForm{text-align: center;}
+#nomeContactInput, #emailContactInput, #mensagemContactInput{ width: 100%; height: 36px; border: 2px solid #d8d8d8; padding-left: 9px; box-shadow: inset 0 3px 8px -2px #e1e1e1; margin-bottom: 20px;}
+#nomeContactInput:focus, #emailContactInput:focus, #mensagemContactInput:focus{box-shadow: 0px 0px 8px #2d89ca;}
+#mensagemContactInput{height: 150px; padding-top: 8px; max-width: 100%; min-width: 100%;}
+#contatoSubmit{margin: auto;height: 50px;font-size: 20px; text-align: center; width: 80%; padding-top: 4px; background: linear-gradient(to bottom, #6acadf 0%,#2ab1cc 100%); color: #fff; border: 2px solid #d4d4d4; box-shadow: inset 1px 1px 0px #fff; cursor: pointer;}
+#contatoSubmit:hover{background: linear-gradient(to bottom, #ffddbf 0%, #ffd0a6 100%); color: gray;}
+
+/* ---------------------------------------- REGISTER PAGE ----------------------------------------- */
+
+*[class^="inputBoxRandom"]{display: inline-block; float: left;}
+#nameInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#lastNameInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#emailInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#confirmEmailInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#cpfInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#dataNascimentoInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#dataNascimentoInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#ruaInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#bairroInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#cidadeInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#ufInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#cepInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#senhaInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#confirmSenhaInput-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+
+/* ---- REGISTER BOX ----- */
+
+#registerBack{background-color: #efefef; height: 250px;}
+#registerBoxTitle{margin: auto;}
+#registerTitle{text-align: center; padding-top: 100px; margin-bottom: 20px;}
+
+/* ---- INFOS BOX ----- */
+
+#infosBox{margin:auto; padding: 50px 0px;}
+#registerForm { padding: 15px; border-left: 1px solid lightgray; border-right: 1px solid lightgray;}
+.infosTexts{color: #888; padding: 5px 0px;}
+.infosInputs{width: 100%;height: 36px; border: 2px solid #d8d8d8; padding-left: 9px; transition: .4s; box-shadow: inset 0 3px 8px -2px #e1e1e1;}
+.infosInputs:focus{box-shadow: 0px 0px 8px #2d89ca;}
+.inputBox1{display:inline-block; width: 48%; float:left;}
+.inputBox1:nth-child(1), .inputBox1:nth-child(3), .inputBox1:nth-child(12), .inputBox1:nth-child(13), .inputBox1:nth-child(15) {margin-right: 37px;}
+.inputBox1:nth-child(3), .inputBox1:nth-child(4), .inputBoxRandom1, .inputBoxRandom2, .inputBoxRandom3, .inputBoxRandom4, .inputBoxRandom6, .inputBox1:nth-child(13), .inputBox1:nth-child(14), .inputBox1:nth-child(15), .inputBox1:nth-child(16){margin-top: 30px;}
+.inputBoxRandom1{margin-right: 89px; padding-right: 90px; border-right: 1px solid lightgray; width: 260px;}
+.inputBoxRandom2{margin-right: 87px; padding-right: 87px; border-right: 1px solid lightgray; width: 323px;}
+.inputBoxRandom4{width: 100%;}
+.inputBoxRandom6{margin-right: 77px; width: 174px;}
+.inputBoxRandom6:nth-child(12){margin-right:0px;}
+
+#submitButton{width: 100%; height: 50px; margin-top: 50px; background-color: #6acadf; color: white; font-size: 23px; cursor: pointer; transition: .2s;}
+#submitButton:hover{background-color: #53b8ce; transition: .2s;}
+
+
+/* ---------------------------------------- AGENDAMENTO PAGE ----------------------------------------- */
+
+
+@keyframes cssAnimation {
+    to {
+        width:0px;
+        height:0px;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+    	visibility: hidden;
+        width:0px;
+        height:0px;
+    }
+}
+
+
+/* ---- AGENDAMENTO BOX ----- */
+
+#agendamentoBox{margin: auto; padding: 35px 0px;}
+#agendamentoFormBox{margin: 0px auto 60px;}
+#agendamentoTextBackground{background-color: #efefef;}
+#agendamentoText{margin: 20px 0px; font-size: 22px; color: #808080; line-height: 33px; letter-spacing: 0.2px;}
+#agendamentoSwitch{padding: 40px 0px;}
+.agendamentoButtons{opacity: 1;transition: .8s; margin: 0px 37% 30px; font-size: 20px; text-align: center; width: 350px; padding-top: 13px; background: linear-gradient(to bottom, #6acadf 0%,#2ab1cc 100%); color: #fff; border: 2px solid #d4d4d4; box-shadow: inset 1px 1px 0px #fff; cursor: pointer;}
+.agendamentoButtons:hover{background: linear-gradient(to bottom, #ffddbf 0%, #ffd0a6 100%); color: gray;}
+#afterSwitchConsultaBox{transition: .8s; height: 0px; opacity: 0;}
+#afterSwitchBanhoBox{transition: .8s; height: 0px; opacity: 0;}
+#afterSwitchTosaBox{transition: .8s; height: 0px; opacity: 0;}
+#agendamentoConsulta, #agendamentoBanho, #agendamentoTosa{transition: .5s; height: 50px;}
+
+/* ---- AGENDAMENTO AFTER ----- */
+#agendamentoConsulta.consultaSwitch, #agendamentoBanho.banhoSwitch, #agendamentoTosa.tosaSwitch{transition: .8s; margin: 0px 0% 30px;}
+#afterSwitchConsultaBox.consultaSwitch, #afterSwitchBanhoBox.banhoSwitch, #afterSwitchTosaBox.tosaSwitch{transition: .8s; height: 380px; opacity: 1;}
+#agendamentoBanho.consultaSwitch, #agendamentoTosa.consultaSwitch, #agendamentoConsulta.banhoSwitch, #agendamentoTosa.banhoSwitch, #agendamentoBanho.tosaSwitch, #agendamentoConsulta.tosaSwitch{
+	transition: .5s; border: none; margin: 0px 37% 0px; padding: 0px; border: none; height: 0px; opacity: 0;
+	-moz-animation: cssAnimation 0s linear .5s forwards;
+    -webkit-animation: cssAnimation 0s linear .5s forwards;
+    -o-animation: cssAnimation 0s linear .5s forwards;
+    animation: cssAnimation 0s linear .5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+#petescolha-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#dataescolha-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+#horaescolha-error{color: white; background-color: #f00; display: block; border-radius: 3px; text-align: center;}
+
+.stepSelect{ float:right; margin-right: 15%; width: 300px;}
+.agendamentoSelect{width: 100%;height: 36px; border: 2px solid #d8d8d8; padding-left: 9px; box-shadow: inset 0 3px 8px -2px #e1e1e1;}
+.agendamentoSelect:focus{box-shadow: 0px 0px 8px #2d89ca;}
+.inputsButtons{margin-top: 40px;height: 50px; padding-top: 4px!important;}
+
+/* ---- CONSULTA AFTER ----- */
+
+#consultaForm{height: 0px; transition: .5s; margin: 0px 40px; padding: 0px 0px; overflow: hidden;}
+#consultaForm.consultaSwitch{height: 380px; transition: .5s; padding: 30px 0px; overflow: hidden;}
+#consultaForm div > h2{float:left;}
+#consultaForm > div{margin-bottom: 25px;}
+#tosaForm div > h2{float:left;}
+#tosaForm > div{margin-bottom: 25px;}
+
+
+/* ---- BANHO AFTER ----- */
+
+#banhoForm{height: 0px; transition: .8s; margin: 0px 40px; padding: 0px 0px; overflow: hidden;}
+#banhoForm.banhoSwitch{height: 380px; transition: .8s; padding: 30px 0px; overflow: hidden;}
+#banhoForm div > h2{float:left;}
+#banhoForm > div{margin-bottom: 25px;}
+
+/* ---- TOSA AFTER ----- */
+
+#tosaForm{height: 0px; transition: .8s; margin: 0px 40px; padding: 0px 0px; overflow: hidden;}
+#tosaForm.tosaSwitch{height: 380px; transition: .8s; padding: 30px 0px; overflow: hidden;}
+#tosaForm div > h2{float:left;}
+#tosaForm > div{margin-bottom: 25px;}

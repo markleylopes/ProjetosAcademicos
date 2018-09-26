@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>PetShop System</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css?css=style.css">
+	<link rel="stylesheet" type="text/css" href="/css?css=animate.css">
+	<link rel="stylesheet" type="text/css" href="/css?css=media-queries.css">
+	<link rel="stylesheet" href="/css?css=owl.carousel.css">
+	<link rel="stylesheet" href="/css?css=owl.carousel.min.css">
+	<link rel="stylesheet" href="/css?css=owl.theme.default.min.css">
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Oswald:400,500,600,700|Varela+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway:200,300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+
+
+<header id="firstHeader" class="clearfix">
+	<div id="firstMenuBox" class="container-fluid clearfix borders">
+		<nav id="socialMenu" class="col-4">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<nav id="firstMenu" class="col-8">
+			<ul>
+				<li id="loginLi">
+					<div id="loginButton">Entrar / Cadastrar</div>
+					<div id="loginBox">
+						<div class="arrow-up"></div>
+						<div id="loginBoxAlign">
+							<nav>
+								<ul class="clearfix">
+									<li>
+										<h1 class="entrarText">Entrar</h1>
+										<form id="loginForm" action="/login" method="post" >
+											<h3 id="loginText" class="h3Logins">Login:</h3>
+											<input id="loginInput" class="loginInputs" name="login" type="text"/>
+											<h3 id="passwordText" class="h3Logins">Senha:</h3>
+											<input id="passwordInput" class="loginInputs" name="password" type="password"/>
+											<button id="submitLogin" type="submit">Enviar</button>
+										</form>
+										<div id="statusLogin"></div>
+									</li>
+									<li>
+										<h1 class="entrarText">Cadastrar</h1>
+										<div id="registerBox">
+											<h2>Cadastre-se via nosso site</h2>
+											<div id="registerUs"><a href="/cadastro">CADASTRE-SE</a></div>
+											<h2>ou</h2>
+											<div id="registerFacebook"><a href="#"><i id="registerFacebookIcon" class="fa fa-facebook" aria-hidden="true"></i>facebook</a></div>
+											<div id="registerGoogle"><a href="#"><i id="registerGoogleIcon" class="fa fa-google" aria-hidden="true"></i>Google</a></div>	
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="searchButton">
+						<label for="" id="searchTopIcon"><i class="fa fa-search" aria-hidden="true"></i></label>
+						<input id="searchHeader" name="searchHeader" type="text" placeholder="Search..."/>
+					</div>
+				</li>
+				<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<header id="secondHeader">
+	<div id="secondMenuBox" class="container-fluid clearfix borders">
+		<div id="logoHeader" class="col-3">
+			<a href="/"><img src="/imgs?imgs=logo_header.png" alt="logo"></a>
+		</div>
+		
+		<nav id="secondMenu" class="col-9 clearfix">
+			<ul>
+			<li id="mark"><a href="#">Home</a></li>
+				<li><a href="/produtos">Produtos</a></li>
+				<li><a href="/agendamento">Agendamento</a></li>
+				<li><a href="/hotel">Hotelzinho</a></li>
+				<li><a href="/contato">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<!-- REGISTER -->
+
+<div id="registerBack">
+	<div id="registerBoxTitle" class="container-less borders">
+		<h1 id="registerTitle">Cadastre-se e Lorem ipsum dolor sit amet.</h1>
+		<div class="displayLine"></div>
+	</div>
+</div>
+
+<div id="infosBack">
+	<div id="infosBox" class="container-less borders clearfix">
+		<form id="registerForm" class="clearfix">
+
+			<!-- NOME -->
+
+			<div class="inputBox1">
+				<h3 class="infosTexts">* NOME:</h3>
+				<input id="nameInput" class="infosInputs" name="nome" type="text"/>
+				
+			</div>
+			<div class="inputBox1">
+				<h3 class="infosTexts">* SOBRENOME:</h3>
+				<input id="lastNameInput" class="infosInputs" name="sobrenome" type="text"/>
+			</div>
+
+			<!-- E-MAIL -->
+
+			<div class="inputBox1">
+				<h3 class="infosTexts">* EMAIL:</h3>
+				<input id="emailInput" class="infosInputs" name="email" type="text"/>
+				
+			</div>
+			<div class="inputBox1">
+				<h3 class="infosTexts">* CONFIRME EMAIL:</h3>
+				<input id="confirmEmailInput" class="infosInputs" name="confirmemail" type="text"/>
+			</div>
+
+			<!-- CPF DATA_NASCIMENTO SEXO -->
+
+			<div class="inputBoxRandom1">
+				<h3 class="infosTexts">* CPF:</h3>
+				<input id="cpfInput" class="infosInputs" name="cpf" type="text"/>	
+			</div>
+			<div class="inputBoxRandom2">
+				<h3 class="infosTexts">* DATA DE NASCIMENTO:</h3>
+				<input id="dataNascimentoInput" class="infosInputs" name="dataNascimento" type="text"/>
+			</div>
+			<div class="inputBoxRandom3">
+				<h3 class="infosTexts">SEXO:</h3>
+				<select id="sexoInput" class="infosInputs" name="sexo" type="text"/>
+					<option value="" disabled selected>Escolha uma opção...</option>
+					<option value="1">Masculino</option>
+					<option value="2">Feminino</option>
+				</select>
+			</div>
+
+			<!-- ENDEREÇO -->
+
+			<div class="inputBoxRandom4">
+				<h3 class="infosTexts">* RUA:</h3>
+				<input id="ruaInput" class="infosInputs" name="rua" type="text"/>	
+			</div>
+			<div class="inputBoxRandom6">
+				<h3 class="infosTexts">* BAIRRO:</h3>
+				<input id="bairroInput" class="infosInputs" name="bairro" type="text"/>	
+			</div>
+			<div class="inputBoxRandom6">
+				<h3 class="infosTexts">* CIDADE:</h3>
+				<input id="cidadeInput" class="infosInputs" name="cidade" type="text"/>
+			</div>
+			<div class="inputBoxRandom6">
+				<h3 class="infosTexts">* UF:</h3>
+				<input id="ufInput" class="infosInputs" name="uf" type="text"/>
+			</div>
+			<div class="inputBoxRandom6">
+				<h3 class="infosTexts">* CEP:</h3>
+				<input id="cepInput" class="infosInputs" name="cep" type="text"/>
+			</div>
+
+			<div class="inputBox1">
+				<h3 class="infosTexts">TELEFONE 1:</h3>
+				<input id="telefone1Input" class="infosInputs" name="telefone1" type="text"/>
+				
+			</div>
+			<div class="inputBox1">
+				<h3 class="infosTexts">TELEFONE 2:</h3>
+				<input id="telefone2Input" class="infosInputs" name="telefone2" type="text"/>
+			</div>
+
+			<!-- SENHA -->
+
+			<div class="inputBox1">
+				<h3 class="infosTexts">* SENHA:</h3>
+				<input id="senhaInput" class="infosInputs" name="senha" type="password"/>
+				
+			</div>
+			<div class="inputBox1">
+				<h3 class="infosTexts">* CONFIRME SENHA:</h3>
+				<input id="confirmSenhaInput" class="infosInputs" name="confirmsenha" type="password"/>
+			</div>
+
+			<input id="submitButton" type="submit" name="submit"/>
+
+		</form>
+	</div>
+</div>
+
+
+<!-- FOOTER -->
+
+<footer id="footerBottom">
+	<div id="footerBox" class="container-fluid clearfix borders">
+		<nav>
+			<ul>
+				<li class="col-4">
+					<div id="logoFooter">
+						<img src="/imgs?imgs=logo_header.png" alt="logo">
+						<p id="logoDescFooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ad veniam non in facere delectus.</p>
+					</div>
+				</li>
+				<li class="col-4">
+					<h5 id="contactInfo">Contato <b>Infos</b></h5>
+					<i class="fa fa-map-marker iconsFooter" aria-hidden="true"><div>R. Dr. João Santos Filho, 255 - Casa Forte</div></i>
+					<i class="fa fa-clock-o iconsFooter" aria-hidden="true"><div>08:00 - 18:00</div></i>
+					<i class="fa fa-phone iconsFooter" aria-hidden="true"><div>(81) 3265-8113</div></i>
+				</li>
+				<li id="redesSociais" class="col-4">
+					<h5 id="contactInfo">Redes <b>Sociais</b></h5>
+						<div class="blockHidden" class="clearfix">
+							<a href="#" class="clearfix">
+								<div id="facebookColor" class="socialMediaIcon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+								<div class="socialMediaText">facebook</div>
+							</a>
+						</div>
+						<div class="blockHidden" class="clearfix">
+					<a href="#" class="clearfix">
+								<div id="instagramColor" class="socialMediaIcon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+								<div class="socialMediaText">instagram</div>
+							</a>
+						</div>
+						<div class="blockHidden" class="clearfix">
+							<a href="#" class="clearfix">
+								<div id="twitterColor" class="socialMediaIcon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+								<div class="socialMediaText">twitter</div>
+							</a>
+						</div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>
+
+
+<script src="/script?script=jquery-3.2.1.min.js"></script>
+<script src="/script?script=owl.carousel.min.js"></script>
+<script src="/script?script=section.background.carousel.js"></script>
+<script src="/script?script=animate.js"></script>
+<script src="/script?script=jquery.validate.js"></script>
+<script src="/script?script=validate.js"></script>
+<script src="/script?script=script.js"></script>
+
+
+
+</body>
+</html>

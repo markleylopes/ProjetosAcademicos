@@ -1,0 +1,32 @@
+/* ---- HEADER ----- */
+
+@media only screen and (max-width: 1366px){
+	header #secondMenu ul li{margin: 0px 20px 0px 20px;}
+	#backgroundSection{height: 560px; padding-top: 20px;}
+	#dogBackground{background-size: 450px;}
+	#dogBackgroundSlide2{background-size: 1000px;}
+	#dogBackgroundSlide3{background-size: 600px;}
+	#sectionDescription{margin: 20px 0px;}
+	#sectionTitle, #sectionTitleSlide2, #sectionTitleSlide3{font-size: 70px;}
+	#sectionDescription, #sectionDescriptionSlide2, #sectionDescriptionSlide3{font-size: 14px;}
+	#aboutUsDescription{font-size: 15px; margin-top: 0px;}
+	.imgSize{width: 115%;}
+	.articleText{width: 115%;}
+	.articleTitle{font-size: 21px; margin-top: 9px;}
+	.articleDescription{font-size: 15px;}
+	.customNextBtn{margin-top:24%;margin-right: -70px;}
+	.customPrevBtn{margin-top:24%;margin-left:-70px;}
+	#squareBox{margin-left: 49.3%;}
+}
+@media only screen and (max-width: 1280px){
+	header #secondMenu ul li{margin: 0px 10px 0px 10px;}
+	#sectionDescription{font-size:14px;}
+	#sectionTitle{font-size: 65px;}
+	#acessButton a{font-size: 17px;}
+	.owl-theme .owl-nav.disabled+.owl-dots{left:46%!important;}
+}
+@media only screen and (max-width: 1144px){
+	header #secondMenu ul li a{font-size: 15px;}
+	#sectionTitle{font-size: 50px;}
+	.borders{max-width: 90%;}
+}

@@ -1,0 +1,44 @@
+.infosInputs{
+    border: none;
+    box-shadow: none;
+    
+}
+#registerForm{
+    border: none;
+       box-shadow: 0 0 3px lightgray;
+}
+.inputBoxRandom1{
+    border: none;
+}
+.inputBoxRandom2{
+    border: none;
+}
+#submitButton{
+    width: 150px;
+    height: 40px;
+    float:  right;
+}
+
+#registerForm1{
+    border: none;
+       box-shadow: 0 0 3px lightgray;
+}
+.funcaoCliente{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: solid 2px #dedede;
+
+
+}
+.funcaoCliente nav ul li{
+display: inline-block;
+    padding: 8px;
+    margin: 2px;
+    background-color:#7fbaff;
+    color: #fff;
+border-radius: 3px;
+    
+}
+.funcaoCliente nav{
+    text-align: center;
+}

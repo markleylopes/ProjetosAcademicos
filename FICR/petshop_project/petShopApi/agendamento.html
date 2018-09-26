@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>PetShop System</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css?css=style.css">
+	<link rel="stylesheet" type="text/css" href="/css?css=animate.css">
+	<link rel="stylesheet" type="text/css" href="/css?css=media-queries.css">
+	<link rel="stylesheet" href="/css?css=owl.carousel.css">
+	<link rel="stylesheet" href="/css?css=owl.carousel.min.css">
+	<link rel="stylesheet" href="/css?css=owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Oswald:400,500,600,700|Varela+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway:200,300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- HEADER -->
+
+<header id="firstHeader" class="clearfix">
+	<div id="firstMenuBox" class="container-fluid clearfix borders">
+		<nav id="socialMenu" class="col-4">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<nav id="firstMenu" class="col-8">
+			<ul>
+				<li id="loginLi">
+					<div id="loginButton">Entrar / Cadastrar</div>
+					<div id="loginBox">
+						<div class="arrow-up"></div>
+						<div id="loginBoxAlign">
+							<nav>
+								<ul class="clearfix">
+									<li>
+										<h1 class="entrarText">Entrar</h1>
+										<form id="loginForm">
+											<h3 id="loginText" class="h3Logins">Login:</h3>
+											<input id="loginInput" class="loginInputs" name="login" type="text"/>
+											<h3 id="passwordText" class="h3Logins">Senha:</h3>
+											<input id="passwordInput" class="loginInputs" name="password" type="password"/>
+											<button id="submitLogin" type="submit">Enviar</button>
+										</form>
+										<div id="statusLogin"></div>	
+									</li>
+									<li>
+										<h1 class="entrarText">Cadastrar</h1>
+										<div id="registerBox">
+											<h2>Cadastre-se via nosso site</h2>
+											<div id="registerUs"><a href="/cadastro">CADASTRE-SE</a></div>
+											<h2>ou</h2>
+											<div id="registerFacebook"><a href="#"><i id="registerFacebookIcon" class="fa fa-facebook" aria-hidden="true"></i>facebook</a></div>
+											<div id="registerGoogle"><a href="#"><i id="registerGoogleIcon" class="fa fa-google" aria-hidden="true"></i>Google</a></div>	
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="searchButton">
+						<label for="" id="searchTopIcon"><i class="fa fa-search" aria-hidden="true"></i></label>
+						<input id="searchHeader" name="searchHeader" type="text" placeholder="Search..."/>
+					</div>
+				</li>
+				<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<header id="secondHeader">
+	<div id="secondMenuBox" class="container-fluid clearfix borders">
+		<div id="logoHeader" class="col-3">
+			<a href="/"><img src="/imgs?imgs=logo_header.png" alt="logo"></a>
+		</div>
+		
+		<nav id="secondMenu" class="col-9 clearfix">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/produtos">Produtos</a></li>
+				<li id="mark"><a href="#">Agendamento</a></li>
+				<li><a href="/hotel">Hotelzinho</a></li>
+				<li><a href="/contato">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+
+<!-- AGENDAMENTO BODY -->
+
+<section id="agendamentoBackground">
+	<div id="agendamentoTextBackground">
+		<div id="agendamentoBox" class="container-fluid borders">
+			<p id="agendamentoText">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam ab dolorem expedita recusandae dignissimos nesciunt ratione quos laborum facilis, quis fugit est nisi minima laboriosam, vitae dicta. Exercitationem repellendus laboriosam totam debitis et. Expedita placeat accusamus voluptate excepturi, eveniet, ex beatae neque! Odio sed consequuntur possimus provident porro rerum ipsam eaque voluptate aliquid. Ex nam quam est natus, vero.
+			</p>
+		</div>
+	</div>
+	<div id="agendamentoFormBox" class="container-fluid borders">
+		<h2 id="agendamentoSwitch">Escolha uma opção de agendamento abaixo: </h2>
+		<div id="agendamentoConsulta" class="agendamentoButtons">CONSULTA</div>
+		<div id="afterSwitchConsultaBox">
+			<form id="consultaForm">
+				<div id="consultaStep1" class="clearfix">
+					<h2>Passo 1: Confirme o pet para qual deseja a consulta</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="petescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">Doge</option>
+							<option value="2">Gordoge</option>
+							<option value="3">Marcellanderson</option>
+						</select>
+					</div>
+				</div>
+				<div id="consultaStep2" class="clearfix">
+					<h2>Passo 2: Escolha uma data para a consulta</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="dataescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">02/04/2018</option>
+							<option value="2">01/18/2018</option>
+							<option value="3">01/15/2018</option>
+						</select>
+					</div>
+				</div>
+				<div id="consultaStep3" class="clearfix">
+					<h2>Passo 3: Escolha uma hora disponivel nesta data</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="horaescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">16:40</option>
+							<option value="2">10:00</option>
+							<option value="3">14:20</option>
+						</select>
+					</div>
+				</div>
+				<input type="submit" value="CONFIRMAR AGENDAMENTO" name="consultaSubmit" class="agendamentoButtons inputsButtons">
+			</form>
+		</div>
+		<div id="agendamentoBanho" class="agendamentoButtons">BANHO</div>
+		<div id="afterSwitchBanhoBox">
+			<form id="banhoForm">
+				<div id="banhoStep1" class="clearfix">
+					<h2>Passo 1: Confirme o pet para qual deseja o banho</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="petescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">Doge</option>
+							<option value="2">Gordoge</option>
+							<option value="3">Marcellanderson</option>
+						</select>
+					</div>
+				</div>
+				<div id="banhoStep2" class="clearfix">
+					<h2>Passo 2: Escolha uma data para o banho</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="dataescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">02/04/2018</option>
+							<option value="2">01/18/2018</option>
+							<option value="3">01/15/2018</option>
+						</select>
+					</div>
+				</div>
+				<div id="banhoStep3" class="clearfix">
+					<h2>Passo 3: Escolha uma hora disponivel nesta data</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="horaescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">16:40</option>
+							<option value="2">10:00</option>
+							<option value="3">14:20</option>
+						</select>
+					</div>
+				</div>
+				<input type="submit" value="CONFIRMAR AGENDAMENTO" name="consultaSubmit" class="agendamentoButtons inputsButtons">
+			</form>
+		</div>
+		<div id="agendamentoTosa" class="agendamentoButtons">TOSA</div>
+		<div id="afterSwitchTosaBox">
+			<form id="tosaForm">
+				<div id="tosaStep1" class="clearfix">
+					<h2>Passo 1: Confirme o pet para qual deseja a tosa</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="petescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">Doge</option>
+							<option value="2">Gordoge</option>
+							<option value="3">Marcellanderson</option>
+						</select>
+					</div>
+				</div>
+				<div id="tosaStep2" class="clearfix">
+					<h2>Passo 2: Escolha uma data para a tosa</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="dataescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">02/04/2018</option>
+							<option value="2">01/18/2018</option>
+							<option value="3">01/15/2018</option>
+						</select>
+					</div>
+				</div>
+				<div id="tosaStep3" class="clearfix">
+					<h2>Passo 3: Escolha uma hora disponivel nesta data</h2>
+					<div class="stepSelect" class="clearfix">
+						<select name="horaescolha" class="agendamentoSelect">
+							<option value="" disabled selected>Escolha uma opção...</option>
+							<option value="1">16:40</option>
+							<option value="2">10:00</option>
+							<option value="3">14:20</option>
+						</select>
+					</div>
+				</div>
+				<input type="submit" value="CONFIRMAR AGENDAMENTO" name="consultaSubmit" class="agendamentoButtons inputsButtons">
+			</form>
+		</div>
+	</div>
+</section>
+
+
+<!-- FOOTER -->
+
+
+<footer id="footerBottom">
+	<div id="footerBox" class="container-fluid clearfix borders">
+		<nav>
+			<ul>
+				<li class="col-4">
+					<div id="logoFooter">
+						<img src="/imgs?imgs=logo_header.png" alt="logo">
+						<p id="logoDescFooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ad veniam non in facere delectus.</p>
+					</div>
+				</li>
+				<li class="col-4">
+					<h5 id="contactInfo">Contato <b>Infos</b></h5>
+					<i class="fa fa-map-marker iconsFooter" aria-hidden="true"><div>R. Dr. João Santos Filho, 255 - Casa Forte</div></i>
+					<i class="fa fa-clock-o iconsFooter" aria-hidden="true"><div>08:00 - 18:00</div></i>
+					<i class="fa fa-phone iconsFooter" aria-hidden="true"><div>(81) 3265-8113</div></i>
+				</li>
+				<li id="redesSociais" class="col-4">
+					<h5 id="contactInfo">Redes <b>Sociais</b></h5>
+						<div class="blockHidden" class="clearfix">
+							<a href="#" class="clearfix">
+								<div id="facebookColor" class="socialMediaIcon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+								<div class="socialMediaText">facebook</div>
+							</a>
+						</div>
+						<div class="blockHidden" class="clearfix">
+							<a href="#" class="clearfix">
+								<div id="instagramColor" class="socialMediaIcon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+								<div class="socialMediaText">instagram</div>
+							</a>
+						</div>
+						<div class="blockHidden" class="clearfix">
+							<a href="#" class="clearfix">
+								<div id="twitterColor" class="socialMediaIcon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+								<div class="socialMediaText">twitter</div>
+							</a>
+						</div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>
+
+
+
+<script src="/script?script=jquery-3.2.1.min.js"></script>
+<script src="/script?script=owl.carousel.min.js"></script>
+<script src="/script?script=section.background.carousel.js"></script>
+<script src="/script?script=animate.js"></script>
+<script src="/script?script=jquery.validate.js"></script>
+<script src="/script?script=validate.js"></script>
+<script src="/script?script=script.js"></script>
+
+
+
+</body>
+</html>
